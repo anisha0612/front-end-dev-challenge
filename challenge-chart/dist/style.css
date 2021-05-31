@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    display: grid;
+    place-content: center;
+    margin: 1em;
+    color: rgba(0, 0,0, 0.7);
+    font-family: 'Hind Siliguri',sans-serif;
+}
+
+
+.btn-type{
+    background-color: #5BC2E7;
+    color: aliceblue;
+}
