@@ -5,18 +5,14 @@ import { ChallengeDataService } from "../../ChallengeDataService.js";
 
 const buttons = document.querySelectorAll(".btn-type");
 
-const resetButton = document.getElementById("reset");
+// const resetButton = document.getElementById("reset");
 const tableContainer = document.querySelector(".data-table");
-
-const reset = () => {
-  history.go();
-};
 
 // Event listener for Reset Button
 
-resetButton.addEventListener("click", () => {
-  reset();
-});
+// resetButton.addEventListener("click", () => {
+//    history.go();
+// });
 
 // function to create and populate table header
 const createTableHeader = (values) => {
